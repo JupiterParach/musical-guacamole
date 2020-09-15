@@ -1,0 +1,3 @@
+Beat Builder is a game where you build beats (attacks) and run those attacks along in parallel the more on beat the
+rhythm of the attacks are the higher the score and off beat pauses are penalized with damage.
+The player gets to use as many tracks of beats as their hands can keep up with and can pickup and drop tracks in intervals for bonus damage.
