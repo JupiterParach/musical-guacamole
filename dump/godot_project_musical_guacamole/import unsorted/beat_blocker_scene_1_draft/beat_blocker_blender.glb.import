@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/beat_blocker_blender.glb-71db537abd9896426db892ed66c534fc.scn"
+path="res://.import/beat_blocker_blender.glb-c03bf10487e72156fe4b0abf4768dfd4.scn"
 
 [deps]
 
-source_file="res://import/beat_blocker_scene_1_draft/beat_blocker_blender.glb"
-dest_files=[ "res://.import/beat_blocker_blender.glb-71db537abd9896426db892ed66c534fc.scn" ]
+source_file="res://import unsorted/beat_blocker_scene_1_draft/beat_blocker_blender.glb"
+dest_files=[ "res://.import/beat_blocker_blender.glb-c03bf10487e72156fe4b0abf4768dfd4.scn" ]
 
 [params]
 
