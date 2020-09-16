@@ -1,3 +1,7 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Beat Block Types/Basic Beat Block/basic_beat_block.glb" type="PackedScene" id=1]
 
 [node name="Root" type="Spatial"]
+
+[node name="basic_beat_block" parent="." instance=ExtResource( 1 )]
