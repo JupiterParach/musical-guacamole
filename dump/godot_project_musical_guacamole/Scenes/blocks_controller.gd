@@ -43,9 +43,8 @@ func _input(event: InputEvent) -> void:
 	if not event is InputEventMouseMotion:
 		# the loop runs through all blocks to check if one is activated
 		for action in inputMap:
+			var animNode = get_child(inputMap[action]).get_child(2)
 			if Input.is_action_pressed(action):
-				print(get_child(inputMap[action]).get_child(0).get_child(0))
-				if not get_child(inputMap[action]).get_child(0).get_child(0).is_playing():
-					get_child(inputMap[action]).get_child(0).get_child(0).queue("block_up")
-					get_child(inputMap[action]).get_child(0).get_child(0).queue("block_down")
-		pass
+				animNode.play("basic_beat_block_anim")
+			elif Input.is_action_just_released(action):
+				animNode.play_backwards("basic_beat_block_anim")
