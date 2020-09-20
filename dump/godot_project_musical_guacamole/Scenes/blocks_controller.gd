@@ -44,7 +44,8 @@ func _input(event: InputEvent) -> void:
 		# the loop runs through all blocks to check if one is activated
 		for action in inputMap:
 			var animNode = get_child(inputMap[action]).get_child(2)
-			if Input.is_action_pressed(action):
+			
+			if Input.is_action_pressed(action) and animNode.current_animation_position == 0:
 				animNode.play("basic_beat_block_anim")
 			elif Input.is_action_just_released(action):
 				animNode.play_backwards("basic_beat_block_anim")
